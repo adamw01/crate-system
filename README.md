@@ -3,31 +3,21 @@ Simple Crate System for SA-MP servers.
 
 ##Introduction
 
-This is a script that I was using when I was running my old freeroam server back in mid 2014. It's a 'Lost Crate' system, and the first player to find the crate gets some rewards such as weapons, and health.
+This is a simple 'Lost Crate' system minigame. A crate spawns, and the first player to find the crate gets some rewards such as weapons, and health.
 
 ##Features
 
 * Respawn time of 3 minutes
 * Easily add your own crate spawn points.
-* Crate will destroy at 24:00 gametime if it hasn't been found. Another crate will respawn after that.
+* Crate will destroy at 24:59 gametime if it hasn't been found. Another crate will respawn after that.
+* Once the crate is spawned, it will tell it's location.
+* Use the command /crate to see your distance from the crate.
 
-##Bugs
+##New in Version 2.0
 
-None currently.
-
-NOTE: This script was created in 2014, some things in the script may be outdated. I've only modified some small things, nothing major!
-
-##Possible Version 2 Soon!
-
-I'm thinking of making another version of this system. I'd like to add a feature where every 4 minutes it will give you a hint where the crate is. Example:
-
-* 4:00: The crate spawns in a random location.
-* 8:00: The location of the crate is revealed.
-* 12:00: The closest player to the crate is revealed.
-* 16:00: The closest player in meters is revealed.
-* 20:00 The crate will be destroyed and a new one will spawn at 24:00
+* Map Icons are no longer used since the introduction of /crate and the fact the location is told when the crate is spawned.
+* Use /crate to find the distance you are from the crate in meters.
+* The location will be told once the crate spawns.
 
 
-If you have any suggestions please let me know!
-
-Enjoy :)!
+If you have any suggestions please let me know.
